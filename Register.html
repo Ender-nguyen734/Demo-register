@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+    <meta name="viewport" content= widtd-device-width,initial-scale=1.0>
+    <head>
+        <title>Register Form</title>
+    </head>
+  <!--Chỉnh sửa css-->
+  	<link ref="stylessheet" href="styles.css">
+  	<style>
+  	*  {boxing-sizing:  border-box}
+
+.container{
+padding:  15px;
+}
+input[type=text],input[type=password]{
+	width: 100%;
+	padding: 15px;
+	margin: 15px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+*  {boxing-sizing:  border-box}
+
+.container{
+padding:  15px;
+}
+input[type=tel],input[type=email]{
+	width: 100%;
+	padding: 20px;
+	margin: 20px;
+	display: inline-block;
+	border: none;
+	background: aqua;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  }
+</style>
+    <body>
+<form action="/action_page.php">
+<div class="container">
+	<h1>Đăng Kí</h1>
+	<p>Đăng Kí để tạo tài khoản trước khi vào</p>
+	<label for="email">Nhập Email đăng kí:</label>
+<br><input type="email"id="email"placeholder="abcxyz@gmail.com"name="email" repuired autocompelete></input></br>
+<label for="nickname">Nhập Tên đăng kí:</label>
+<br><input type="text"id="nickname"placeholder="NguyenA"name="nickname"repuired></input></br>
+<label for="pass">Nhập mật khẩu:</label>
+<br><input type="password"id="pass"placeholder="12345678"name="pass"repuored></input></br>
+<label for="phonenumber">Nhập Số điện thoại đăng kí:</label,>
+<br><input type="tel"id="phonenumber"placeholder="1234-456-789"name="phonenumber"pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"maxlength="9"required></input></br>
+<br><button type="submit" class="registerbutton">Đăng Kí</button></br>
+<p>Việc đăng kí tài khoản cũng như việc bạn chấp nhận mọi điều khoản và sử dụng của trang web</p>
+</div>
+<div class="container login">
+	<p><a href="https://www.facebook.com/profile.php?id=100072889877029">Bạn đã có tài khoản?</a></p>
+</div>
+</form>
+</body>
+<!-- video test -->
+<h2>Video demo</h2>
+<video width="150" height="200"autoplay muted>
+	<source src="demo.mp4" type="video/mp4"></source>
+</video>
+<!--Nhạc trong web demo -->
+	<h3>Demo nhạc chờ siu cuteeee</h3>
+<audio controls>
+    <source src="y2mate.com - Nợ Nhau Một Lời RIN Music Remix  Phúc Chinh  Cạnh Thì Không Thương Nhau Gieo Thương Đau.mp3"type="audio/mpeg"autoplay></source>
+</audio>
+</html>

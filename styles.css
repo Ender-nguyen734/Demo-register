@@ -1,0 +1,13 @@
+*  {boxing-sizing:  border-box}
+
+.container{
+padding:  20px;
+}
+input[type=text],input[type=password]{
+	width: 100%;
+	padding: 50px;
+	margin: 50px;
+	display: inline-block;
+	border: none;
+	background: aqua;
+}
